@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Gothic A1", sans-serif;
+    background-image: linear-gradient(to bottom right, #eff6ff, #dbeafe);
+}

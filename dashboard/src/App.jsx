@@ -16,10 +16,10 @@ import img from "./assets/bhavesh.jpg";
 const PersonalDashboard = () => {
   const projects = [
     {
-      title: "DaignoBot",
+      title: "DiagnoBot",
       description:
         "DiagnoBot analyzes symptoms to suggest conditions, actions, and trusted resources.",
-      techStack: ["React", "TailwindCss", "RapidApi", "Express.js", "Node.js"],
+      techStack: ["React", "TailwindCss", "Rapid-Api", "Express.js", "Node.js"],
       color: "orange-500",
       githubLink: "https://github.com/Bhaveshanjana/DiagnoBot",
       liveLink: "https://diagno-bot.vercel.app/",
@@ -123,7 +123,7 @@ const PersonalDashboard = () => {
             <div className="space-y-6">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="text-lg font-semibold text-gray-800">
-                  Vision group of colleges, chittorgarh
+                  Vision group of colleges, Chittorgarh
                 </h4>
                 <p className="text-blue-600 font-medium">
                   Bachelor in Computer Application
@@ -135,7 +135,7 @@ const PersonalDashboard = () => {
               </div>
               <div className="border-l-4 border-green-500 pl-4">
                 <h4 className="text-lg font-semibold text-gray-800">
-                  Vidya Niketan High Sr. Sec. School School
+                  Vidya Niketan High Sr. Sec. School
                 </h4>
                 <p className="text-green-600 font-medium">12th (science)</p>
                 <p className="text-gray-600 flex items-center gap-1 mt-1">
@@ -149,27 +149,22 @@ const PersonalDashboard = () => {
           {/* Skills Section */}
           <div className="bg-white rounded-2xl shadow-xl p-6">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">
-              Technical Skills
+              Tech Stack
             </h3>
             <div className="space-y-4">
               <div>
                 <h4 className="font-semibold text-gray-700 mb-2">Frontend</h4>
                 <div className="flex flex-wrap gap-2">
-                  {[
-                    "React",
-                    "JavaScript",
-                    "TypeScript",
-                    "HTML5",
-                    "CSS3",
-                    "Tailwind CSS",
-                  ].map((skill) => (
-                    <span
-                      key={skill}
-                      className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+                  {["React", "HTML5", "CSS3", "Tailwind CSS", "Motion"].map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  )}
                 </div>
               </div>
               <div>
